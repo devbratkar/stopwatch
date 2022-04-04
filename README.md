@@ -1,1 +1,3 @@
 # stopwatch
+
+THIS IS A PRACTICE PROJECT.
