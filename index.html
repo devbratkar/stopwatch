@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cedarville+Cursive&family=Kurale&family=Merriweather:ital,wght@1,300&family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="heading">
+        <div class="title">
+            <h1>STOPWATCH</h1>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="timer">
+            <h2><span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span></h2>
+            <div class="button">
+                <button type="button" id="start" onclick="start()">Start</button>
+                <button type="button" id="stop" onclick="stop()">Stop</button>
+                <button type="button" id="reset" onclick="reset()">Reset</button>
+                <button type="button" id="lap" onclick="lap()" ondblclick="lapReset()">Lap</button>
+            </div>
+        </div>
+        <div id="para">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
